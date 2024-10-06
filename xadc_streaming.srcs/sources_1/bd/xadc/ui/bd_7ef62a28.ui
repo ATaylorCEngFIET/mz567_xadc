@@ -1,0 +1,38 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.600572",
+   "Default View_TopLeft":"-70,-358",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_clk_in1_0 -pg 1 -lvl 0 -x 0 -y 610 -defaultsOSRD
+preplace port port-id_tx_0 -pg 1 -lvl 6 -x 1250 -y 360 -defaultsOSRD
+preplace port port-id_rx_0 -pg 1 -lvl 0 -x 0 -y 320 -defaultsOSRD
+preplace port port-id_vp_in -pg 1 -lvl 0 -x 0 -y 380 -defaultsOSRD
+preplace port port-id_vn_in -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 110 -y 610 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -x 400 -y 520 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 110 -y 500 -defaultsOSRD
+preplace inst xadc_wiz_0 -pg 1 -lvl 3 -x 730 -y 440 -defaultsOSRD
+preplace inst uart_0 -pg 1 -lvl 5 -x 1080 -y 320 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 5 -x 1080 -y 180 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 5 -x 1080 -y 70 -defaultsOSRD
+preplace netloc microblaze_riscv_0_Clk 1 1 4 220 420 590 300 N 300 930J
+preplace netloc clk_wiz_1_locked 1 1 1 230 560n
+preplace netloc clk_in1_0_1 1 0 1 NJ 610
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 3 600 310 880 330 NJ
+preplace netloc xlconstant_0_dout 1 1 1 NJ 500
+preplace netloc uart_0_tx 1 5 1 N 360
+preplace netloc rx_0_1 1 0 5 NJ 320 NJ 320 NJ 320 860J 350 NJ
+preplace netloc xlconstant_1_dout 1 5 1 1230 180n
+preplace netloc vp_in_0_1 1 0 3 NJ 380 NJ 380 580J
+preplace netloc vn_in_0_1 1 0 3 NJ 400 NJ 400 570J
+preplace netloc axis_subset_converter_0_M_AXIS 1 3 2 870 290 920
+levelinfo -pg 1 0 110 400 730 900 1080 1250
+pagesize -pg 1 -db -bbox -sgen -110 0 1330 680
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_microblaze_riscv_cnt":"1"
+}
